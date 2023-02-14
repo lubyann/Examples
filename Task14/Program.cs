@@ -17,9 +17,9 @@ Console.Write("Enter a number1: ");
 int number1 = int.Parse(Console.ReadLine()!);
 
 if (number1 % 7 == 0 && number1 % 23 == 0)
-{Console.WriteLine($"{number1} -> yes");}
-else 
-{ 
+{ Console.WriteLine($"{number1} -> yes"); }
+else
+{
     Console.WriteLine($"{number1} -> no ");
-    
+
 }
