@@ -8,12 +8,12 @@ double number1 = double.Parse(Console.ReadLine()!);
 Console.Write("Enter a number2: ");
 double number2 = double.Parse(Console.ReadLine()!);
 
-if(number2 % number1 == 0)
+if (number2 % number1 == 0)
 {
     Console.WriteLine($"{number2} кратное {number1}");
 }
-else if(number2 % number1 ==1)
+else if (number2 % number1 == 1)
 {
-double res = number2 / number1 - number1;
-Console.WriteLine(res);
+    double res = number2 / number1 - number1;
+    Console.WriteLine(res);
 }
